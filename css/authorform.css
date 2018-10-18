@@ -1,0 +1,53 @@
+body{
+    background: darkgoldenrod;
+}
+
+a:link{
+    color: chartreuse;
+}
+
+a:visited{
+    color: black;
+}
+
+#everything{
+    margin: auto;
+    width: 100%;
+}
+
+#banner{
+    height: 130px;
+    background: firebrick;
+    font-size: 60px;
+    color: black;
+    float: right;
+}
+
+#menuBar{
+    font-size: 20px;
+    float: left;
+    background: firebrick;
+    margin-top: 65px;
+}
+
+#menuBar .menuButton{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+    margin: 15px;
+}
+
+#menuBar .menuButton:HOVER{
+    background: lime;
+    color: aqua;
+}
+
+table{
+    width: auto;
+    border: 8px blueviolet;
+    border-style: dotted;
+    margin-left: 500px;
+}
+
+#content

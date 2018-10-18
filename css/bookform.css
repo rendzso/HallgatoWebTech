@@ -1,0 +1,52 @@
+body{
+    background: aquamarine;
+}
+
+a:link{
+    color: chartreuse;
+}
+
+a:visited{
+    color: black;
+}
+
+#everything{
+    margin: auto;
+    width: 100%;
+}
+
+#banner{
+    height: 200px;
+    background: firebrick;
+    font-size: 60px;
+    color: black;
+}
+
+#menuBar{
+    font-size: 20px;
+    float: right;
+    background: firebrick;
+    margin-top: 65px;
+}
+
+#menuBar .menuButton{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+    margin: 15px;
+}
+
+#menuBar .menuButton:HOVER{
+    background: orange;
+    color: aqua;
+}
+
+table{
+    width: auto;
+    border: 10px black;
+    border-style: ridge;
+    float: right;
+}
+
+#content
